@@ -85,7 +85,7 @@ console.log(roundToDecPlace(7.79723874, 3));
 
 //3. Combine the individual functions into a single "calculator" program
 //where the user can select an operation and input the required values.
-
+/*
 const readline = require('readline-sync');
 
 console.log("Welcome to your personal calculator program!");
@@ -115,7 +115,8 @@ if (choice === "1") {
     console.log("Result: ", roundToDecPlace(num, dec));
 }else {
     throw new Error("Invalid input, please try again.");
-}
+} 
+*/
 //4. Test the calculator by performing the following:
 //● Find the absolute value of -45.67.
 //● Raise 5 to the power of 3.
@@ -126,3 +127,9 @@ if (choice === "1") {
 //1
 //● Round 23.67891 to 2 decimal places.
 
+console.log(calculateAbsoluteValue(-45.67));
+console.log(calculatePower(5, 3));
+console.log(findSquareRoot(144));
+console.log(findMaxAndMin([3, 78, -12, 0.5, 27]));
+console.log(generateRandomNumber(1, 50));
+console.log(roundToDecPlace(23.67891, 2));
